@@ -1,48 +1,43 @@
-# 🧪 Interactive Colorful Periodic Table
+# My Simple Periodic Table
 
-An interactive, responsive, and visually stunning Periodic Table of the Elements built completely from scratch using **HTML5**, **CSS3**, and **Vanilla JavaScript**. 
+An interactive, beginner-level Periodic Table of the Elements built from scratch using HTML, CSS, and JavaScript. 
 
-This project features all **118 elements**, fully mapped out using CSS Grid and structured JavaScript data, complete with a dark-mode aesthetic, category color-coding, smooth hover animations, and a dynamic detail pop-up modal.
+This project displays the first 10 elements (Hydrogen to Neon) as clickable cards. Clicking any element card updates the information box below with its chemical symbol, full name, and key facts.
+
+<img width="1917" height="967" alt="banner 2" src="https://github.com/user-attachments/assets/8319c2af-34fb-4453-a9a4-af76f27668cf" />
+
+
+## Features
+
+* **First 10 Elements:** Includes Hydrogen (1) through Neon (10) with simple descriptions.
+* **Clean Card Layout:** Uses basic CSS Flexbox so the element cards wrap neatly into rows.
+* **Interactive Info Box:** Clicking an element card shows its details in the display box below.
+* **Simple Hover Effect:** Changes card background color when hovered over.
 
 ---
 
-## ✨ Features
+## Built With
 
-* **Complete 118 Elements:** Covers every single official element from Hydrogen (1) to Oganesson (118), including the Lanthanide and Actinide series.
-* **Authentic Grid Layout:** Built using an 18-column CSS Grid structure that mirrors the real-world periodic table layout, complete with proper spacing for the bottom rows.
-* **Category Color Coding:** Easily distinguish between Nonmetals, Noble Gases, Alkali Metals, Alkaline Earth Metals, Transition Metals, Post-Transition Metals, Lanthanides, and Actinides.
-* **Interactive Modal Pop-ups:** Click on any element tile to open an immersive card revealing its atomic number, exact chemical symbol, full name, category, atomic mass, room-temperature state of matter, and a detailed summary.
-* **Sleek Dark Theme:** Designed with a modern dark-slate background, smooth scaling hover transitions, and glowing visual feedback.
+* **HTML5** - Page structure, headings, and containers.
+* **CSS3** - Basic styling, colors, borders, and Flexbox layout.
+* **JavaScript** - Arrays, `for` loops, and DOM methods to create cards and handle clicks.
 
 ---
 
-## 🛠️ Built With
-
-* **HTML5** – Structuring the layout, legend, periodic grid, and modal components.
-* **CSS3** – Utilizing CSS Grid, Flexbox, custom variables, animations, and responsive styling.
-* **Vanilla JavaScript (ES6)** – Powering the element rendering loop, grid placement logic, and modal event listeners with zero external frameworks or libraries.
-
-<img width="1917" height="967" alt="banner 2" src="https://github.com/user-attachments/assets/27329dc7-70ab-495c-a81c-521bb9d2f7a2" />
-
-
-## 📂 Project Structure
+## Project Structure
 
 ```text
 periodic-table/
 │
-├── index.html       # Main HTML structure and modal template
-├── style.css        # Theme, grid layout, colors, and animations
-└── script.js        # Element data array, grid generator, and modal logic
-🚀 Getting Started & Running Locally
-Because this project uses purely front-end vanilla web technologies, you don't need to install any complex build tools, node modules, or servers!
+├── index.html       # Main HTML structure
+├── style.css        # Styling and card layout
+└── script.js        # 10-element data array and click logic
+How to Run
+Download or clone this project folder to your computer.
 
-Clone or Download this repository to your local machine.
+Keep index.html, style.css, and script.js in the same folder.
 
-Ensure all three files (index.html, style.css, and script.js) are saved inside the same folder.
+Double-click index.html to open it in any web browser.
 
-Double-click index.html or open it directly in any modern web browser (Chrome, Firefox, Edge, Safari) to launch the interactive periodic table.
-
-🧠 Development & Craftsmanship Note
-Every single line of code in this project was meticulously planned, designed, and hand-written from scratch. Prior to touching any code editor, the entire layout, element dataset, and coordinate system were exhaustively drafted across 20 pages of a physical notebook.
-
-Built entirely through human grit, determination, and late-night focus—with zero AI code generation—this project stands as a true testament to the power of foundational planning and authentic coding.
+Development Note
+All code in this project is 100% human-generated and written from scratch. Before typing anything into the code editor, the layout and JavaScript logic were drafted by hand in a notebook.
