@@ -13,7 +13,7 @@ h1 {
 #table-box {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Allows the 10 cards to wrap into multiple rows */
+    flex-wrap: wrap;
     gap: 15px;
     margin-top: 30px;
     max-width: 500px;
@@ -21,7 +21,6 @@ h1 {
     margin-right: auto;
 }
 
-/* Individual element card style (No scaling animation) */
 .element-card {
     background-color: #a7f3d0;
     border: 2px solid #059669;
@@ -34,7 +33,7 @@ h1 {
 }
 
 .element-card:hover {
-    background-color: #6ee7b7; /* Simple color change on hover, no moving/scaling */
+    background-color: #6ee7b7;
 }
 
 .element-card h3 {
