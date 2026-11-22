@@ -1,47 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colorful Periodic Table</title>
+    <meta charset="utf-8">
+    <title>My Periodic Table</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Interactive Periodic Table</h1>
-        <p>Click on any glowing element to explore its atomic secrets!</p>
-    </header>
+    <h1>My Simple Periodic Table</h1>
+    <p>Click on any element card below to see more information.</p>
 
-    <!-- Color Legend -->
-    <div class="legend">
-        <span class="badge nonmetal">Nonmetal</span>
-        <span class="badge noble-gas">Noble Gas</span>
-        <span class="badge alkali">Alkali Metal</span>
-        <span class="badge alkaline">Alkaline Earth</span>
-        <span class="badge metalloid">Metalloid</span>
-        <span class="badge transition">Transition Metal</span>
-    </div>
+    <!-- Box where elements will appear -->
+    <div id="table-box"></div>
 
-    <!-- Main Periodic Table Grid (Populated by JavaScript) -->
-    <main id="periodic-table" class="table-grid"></main>
-
-    <!-- Pop-up Modal for Element Details -->
-    <div id="element-modal" class="modal hidden">
-        <div class="modal-content">
-            <span id="close-btn" class="close-btn">&times;</span>
-            <div id="modal-header" class="modal-header">
-                <span id="modal-number">1</span>
-                <h2 id="modal-symbol">H</h2>
-                <h3 id="modal-name">Hydrogen</h3>
-            </div>
-            <div class="modal-body">
-                <p><strong>Category:</strong> <span id="modal-category">Nonmetal</span></p>
-                <p><strong>Atomic Mass:</strong> <span id="modal-mass">1.008 u</span></p>
-                <p><strong>State at Room Temp:</strong> <span id="modal-state">Gas</span></p>
-                <p id="modal-summary" class="summary-text">Description goes here...</p>
-            </div>
-        </div>
+    <!-- Info box to show element details -->
+    <div id="info-box">
+        <h2>Element Info</h2>
+        <p id="details">Click an element to learn about it!</p>
     </div>
 
     <script src="script.js"></script>
