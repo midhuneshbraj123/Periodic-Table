@@ -22,7 +22,8 @@ This project features all **118 elements**, fully mapped out using CSS Grid and 
 * **CSS3** – Utilizing CSS Grid, Flexbox, custom variables, animations, and responsive styling.
 * **Vanilla JavaScript (ES6)** – Powering the element rendering loop, grid placement logic, and modal event listeners with zero external frameworks or libraries.
 
-<img width="1917" height="967" alt="bannere" src="https://github.com/user-attachments/assets/346c2ab9-4614-4f68-b76d-50b348e25566" />
+<img width="1917" height="967" alt="banner 2" src="https://github.com/user-attachments/assets/27329dc7-70ab-495c-a81c-521bb9d2f7a2" />
+
 
 ## 📂 Project Structure
 
